@@ -31,13 +31,23 @@ $H_A$: The Covid921 vaccine is effective in males.
 
 ### Methods
 
+The treatment is categorical and sex is also categorical. I used the cat~cat helper file.  
+
 ### Descriptive Results
 
-### Graphical Results 
+#### Graphical Results 
 
-### Numerical
+```{r}
+males=filter(FinalData,FinalData$sex=="M")
+barchartGC(~treatment + infected,data=males)
+barchartGC(~infected + treatment,data=males, type="percent")
 
-### Inferential Results
+```
+
+
+#### Numerical
+
+#### Inferential Results
 
 ## Females
 
@@ -49,7 +59,11 @@ $H_A$: The Covid921 vaccine is effective in females.
 
 ### Descriptive Results
 
-### Graphical Results 
+#### Graphical Results 
+
+#### Numerical
+
+#### Inferential Results
 
 ## LGBTQ
 $H_0$: The Covid921 Vaccine is not effective on the LGBTQ community.
@@ -62,9 +76,9 @@ $H_A$: The Covid921 vaccine is effective on the LGBTQ community
 $H_0$: The Covid921 Vaccine is not effective on drug users.   
 
 $H_A$: The Covid921 vaccine is effective on drug users.  
-
-
 ### Methods
+
+Drug use is a categorical variable, (yes or no to frug use), so I used the cat~cat helper file. 
 
 ### Descriptive results
 
