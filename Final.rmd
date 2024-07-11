@@ -57,6 +57,14 @@ The table shows that 73.8% of males who received the placebo became infected wit
 
 #### Inferential Results
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The Fisher's exact test shows that the p-value is 0.00000000000000022. This means the null hypothesis of the Covid921 Vaccine not being effective in males is rejected because it is a smaller value than 0.05. 
+The chi and fisher tests also show this p-value.  
 
 ## Females
 
