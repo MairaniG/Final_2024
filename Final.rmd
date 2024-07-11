@@ -53,8 +53,10 @@ table1 <- xtabs(~treatment + infected, data=males)
 rowPerc(table1)
 colPerc(table1)
 ```
+The table shows that 73.8% of males who received the placebo became infected with covid. This is higher than the 26.2% of males that recieved the vaccine and became infected with covid.  
 
 #### Inferential Results
+
 
 ## Females
 
