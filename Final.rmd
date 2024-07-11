@@ -44,8 +44,15 @@ barchartGC(~infected + treatment,data=males, type="percent")
 
 ```
 
+The graph shows that males who received the vaccine are less likely to get covid. People who received the placebo showed to have higher rates of covid. 
 
-#### Numerical
+#### Numerical Results
+
+```{r}
+table1 <- xtabs(~treatment + infected, data=males)
+rowPerc(table1)
+colPerc(table1)
+```
 
 #### Inferential Results
 
