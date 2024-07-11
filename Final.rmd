@@ -64,7 +64,10 @@ fisher.test(table1)
 ```
 
 The Fisher's exact test shows that the p-value is 0.00000000000000022. This means the null hypothesis of the Covid921 Vaccine not being effective in males is rejected because it is a smaller value than 0.05. 
-The chi and fisher tests also show this p-value.  
+The chi and fisher tests also show this p-value.
+
+The odds ratio was 2.815604, showing a positive relationship between males and the effectiveness of receiving the covid921 vaccine. (This is because an odds ratio greater than 1 indicates an increased odds of the effective vaccine outcome)  
+
 
 ## Females
 
