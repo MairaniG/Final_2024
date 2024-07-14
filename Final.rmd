@@ -123,6 +123,13 @@ $H_0$: The Covid921 Vaccine is not effective on the LGBTQ community.
 
 $H_A$: The Covid921 vaccine is effective on the LGBTQ community
 
+### Methods
+The Cat~Cat helper file was used because the treatment is categorical and whether or not a person is apart of the LGBTQ community is also categorical. 
+
+### Descriptive Results
+
+#### Graphical Results 
+
 
 ## Drug Users
 
