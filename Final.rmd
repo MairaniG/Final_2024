@@ -129,6 +129,12 @@ The Cat~Cat helper file was used because the treatment is categorical and whethe
 ### Descriptive Results
 
 #### Graphical Results 
+```{r}
+LGBTQ=filter(FinalData,FinalData$LGBTQ=="gay")
+barchartGC(~infected + treatment, data=LGBTQ)
+barchartGC(~infected +treatment, data=LGBTQ,type="percent")
+```
+
 
 
 ## Drug Users
