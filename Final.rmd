@@ -83,7 +83,22 @@ I used the Cat~Cat helper file because both variables were categorical. Treatmen
 
 #### Graphical Results 
 
+```{r}
+females=filter(FinalData,FinalData$sex=="F")
+barchartGC(~treatment + infected,data=females)
+barchartGC(~infected + treatment,data=females, type="percent")
+```
+
+The graph shows that there is an existing difference between females that got the Covid vaccine and those that got the placebo. Those that received the placebo had a higher rate of contracting covid19.
+
 #### Numerical
+
+```{r}
+table2 <- xtabs(~treatment + infected, data=females)
+rowPerc(table2)
+colPerc(table2)
+```
+
 
 #### Inferential Results
 
