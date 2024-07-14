@@ -39,7 +39,7 @@ The treatment is categorical and sex is also categorical. I used the cat~cat hel
 
 ```{r}
 males=filter(FinalData,FinalData$sex=="M")
-barchartGC(~treatment + infected,data=males)
+barchartGC(~infected + treatment,data=males)
 barchartGC(~infected + treatment,data=males, type="percent")
 
 ```
@@ -85,7 +85,7 @@ I used the Cat~Cat helper file because both variables were categorical. Treatmen
 
 ```{r}
 females=filter(FinalData,FinalData$sex=="F")
-barchartGC(~treatment + infected,data=females)
+barchartGC(~infected + treatment,data=females)
 barchartGC(~infected + treatment,data=females, type="percent")
 ```
 
