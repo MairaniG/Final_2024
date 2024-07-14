@@ -99,6 +99,9 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
+The tables shows that among the the females that received the vaccine, 50% of them were OK and didn't get Covid19. The 65% of them that received the placebo became infected with Covid19.   
+
+(But there was nearly no difference in people that were OK overall: placebo was 49.94 OK and vaccine was 50.06 OK)  
 
 #### Inferential Results
 
