@@ -105,6 +105,19 @@ The tables shows that among the the females that received the vaccine, 50% of th
 
 #### Inferential Results
 
+```{r}
+chisq.test(table2)
+chisqtestGC(table2)
+fisher.test(table2)
+```
+
+The chi-squared test shows a p-value of 0.00000001914, smaller than 0.05, meaning we reject the null hypothesis that the Covid921 Vaccine is not effective in females.  
+
+The Fisher's Exact Test has a p-value of 0.00000001246, confirming the null hypothesis is rejected.
+
+The Odds Ratio is 1.856237, this is bigger than 1 so the alternative hypothesis (The Covid921 vaccine is effective in females) is true.  
+
+
 ## LGBTQ
 $H_0$: The Covid921 Vaccine is not effective on the LGBTQ community.
 
