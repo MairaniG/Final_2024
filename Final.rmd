@@ -77,6 +77,8 @@ $H_A$: The Covid921 vaccine is effective in females.
 
 ### Methods
 
+I used the Cat~Cat helper file because both variables were categorical. Treatment is categorical and sex (female) is also categorical. 
+
 ### Descriptive Results
 
 #### Graphical Results 
