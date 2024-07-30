@@ -174,6 +174,15 @@ Drug use is a categorical variable, (yes or no to frug use), so I used the cat~c
 ### Descriptive results
 
 #### Graphical results 
+```{r}
+Druggies=filter(FinalData,FinalData$DrugUser=="yes")
+barchartGC(~infected + treatment, data=Druggies)
+barchartGC(~infected +treatment, data=Druggies,type="percent")
+```
+ 
+The Graph shows that there is a higher infection rate among drug users that got the vaccine. They are significantly more infected by covid19 than those that received the placebo.
+
+The infection rate of those who got the vaccine is around 90% where around 10% of the placebo recipients got infected.
 
 #### Numerical
 
