@@ -143,11 +143,29 @@ rowPerc(table3)
 colPerc(table3)
 ```
 
+The Numerical chart shows that in those the received the vaccine, there was a higher rate of infections. The numbers were higher than in the people that got the placebo.(the infection rate in the vaccine group is 4 times higher than in the placebo group). 
+
+(For the OK group, the placebo group had a higher infection rate.)  
+
+#### Inferential Results
+
+```{r}
+chisq.test(table3)
+chisqtestGC(table3)
+fisher.test(table3)
+```
+
+
+
+
+
+
 ## Drug Users
 
 $H_0$: The Covid921 Vaccine is not effective on drug users.   
 
-$H_A$: The Covid921 vaccine is effective on drug users.  
+$H_A$: The Covid921 vaccine is effective on drug users. 
+
 ### Methods
 
 Drug use is a categorical variable, (yes or no to frug use), so I used the cat~cat helper file. 
