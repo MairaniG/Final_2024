@@ -186,7 +186,23 @@ The infection rate of those who got the vaccine is around 90% where around 10% o
 
 #### Numerical
 
+```{r}
+table4 <- xtabs(~infected + treatment, data=Druggies)
+rowPerc(table4)
+colPerc(table4)
+```
+
+The Numerical results show that 91.67 of drug users that received the vaccine became infected. Only 8.33 of drug users that received the placebo got infected. 
+
+Those who received the placebo were also OK at a higher rate. 
+
 #### Inferential results
+```{r}
+chisq.test(table4)
+chisqtestGC(table4)
+fisher.test(table4)
+```
+
 
 #### Conclusion
 
