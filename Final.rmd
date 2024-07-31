@@ -135,6 +135,8 @@ barchartGC(~infected + treatment, data=LGBTQ)
 barchartGC(~infected +treatment, data=LGBTQ,type="percent")
 ```
 
+The graph shows that around 80% of those who got the placebo ended up getting covid. This was a big difference compared to the 20% of the people who got covid and had the vaccine instead.  
+
 #### Numerical
 
 ```{r}
@@ -219,11 +221,10 @@ For the males, the graphical results showed the placebo group got covid at a hig
 For the females, the overall result was that the vaccine was effective. The graphical and numerical results displayed a higher rate of covid among those who go the placebo over the vaccine. Around 65% of the women that received the vaccine became infected. The inferential results showed a small p-value less than 0.05 and the null hypothesis was rejected. The odds ratio was also bigger than 1 so this all pointed towards an effective vaccine result in women. 
 
 ### 3. LGBTQ
-The tests ran showed a  relationship between those in the LGBTQ community and the Covid19 vaccine.
+The tests ran showed a positive relationship between those in the LGBTQ community and the Covid19 vaccine. The graphical results were that those who got the placebo were significantly more likely to get covid. The vaccine was effective and the numerical graph represented those stats as well. The inferential results gave us a p-value that was smaller than 0.05 and rejected the null hypothesis that the vaccine wasnt effective in this group.
 
 ### 4. Drug Users
-For Drug Users, the   hypothesis was 
-
+For Drug Users, the  hypothesis was 
 
 
 # Overall Results and Conclusions
