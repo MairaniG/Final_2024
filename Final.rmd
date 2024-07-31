@@ -203,11 +203,12 @@ chisqtestGC(table4)
 fisher.test(table4)
 ```
 
-The inferential results Chi-squared test shows a p-value of 1.414e-10 (0.0000000001414), this is smaller than 0.05 so the null hypothesis is rejected. (The Covid921 Vaccine is not effective on drug users.)
+The inferential results Chi-squared test shows a p-value of 1.414e-10 (0.0000000001414), this is smaller than 0.05 so the null hypothesis is rejected. (that The Covid921 Vaccine is not effective on drug users.)
 
-The Fisher's Exact Test p-value is 3.261e-12(0.000000000003261), which suggests 
+The Fisher's Exact Test p-value is 3.261e-12(0.000000000003261), which also rejects the null hypothesis and suggests that the Covid19 vaccine may be effective on drug users.
 
-The Odds Ratio is 4.27359, this is bigger than 1 so the alternative hypothesis (The Covid921 Vaccine is not effective on the LGBTQ community) is true.   
+The Odds Ratio is 0.08740846 
+, this is less than 1 so it suggests that drug users who received the covid vaccine have lower odds of getting infected compared to those who did not get the vaccine.  ( also rejects the null hypothesis)
 
 #### Conclusion
 
