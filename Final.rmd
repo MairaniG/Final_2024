@@ -218,7 +218,7 @@ The Odds Ratio is 0.08740846
 For the males, the graphical results showed the placebo group got covid at a higher rate (around 80%).The numerical results supported this by showing how there was a higher percentage of people that became infected through the placebo (73.8%). The inferential results corroborate these findings because the p-value for the fisher and chi test was smaller than 0.05,rejecting the p-value. The odds ratio also showed a positive relationship between males and the vaccines effectiveness, so this group should recieve the vaccine.
 
 ### 2. Females
-For the females, the overall result was that the vaccine was effective. The graphical and numerical results displayed a higher rate of covid among those who go the placebo over the vaccine. Around 65% of the women that received the vaccine became infected. The inferential results showed a small p-value less than 0.05 and the null hypothesis was rejected. The odds ratio was also bigger than 1 so this all pointed towards an effective vaccine result in women. 
+For the females, the overall result was that the vaccine was effective. The graphical and numerical results displayed a higher rate of covid among those who go the placebo over the vaccine. Around 65% of the women that received the placebo became infected. The inferential results showed a small p-value less than 0.05 and the null hypothesis was rejected. The odds ratio was also bigger than 1 so this all pointed towards an effective vaccine result in women. 
 
 ### 3. LGBTQ
 The tests ran showed a positive relationship between those in the LGBTQ community and the Covid19 vaccine. The graphical results were that those who got the placebo were significantly more likely to get covid. The vaccine was effective and the numerical graph represented those stats as well. The inferential results gave us a p-value that was smaller than 0.05 and rejected the null hypothesis that the vaccine wasn't effective in this group. 
@@ -229,4 +229,4 @@ For Drug Users, the results of some test were unexpected and could be the result
 
 # Overall Results and Conclusions
   
-  In males, the tests ran showed that Covid19 vaccine was effective in preventing the contraction of the virus. 
+  In males, the tests ran showed that Covid921 vaccine was effective in preventing the contraction of the virus. The tests backed up the fact that the men who didnt get the vaccine and got the placebo experienced higher rates of covid 19. In this group the null hypothesis ended up being rejected. In females, there was also a proven association between receiving the vaccine and having lower risks for getting covid19. The tests all showed a higher rate of covid among those who got the placebo (about 65%). The null hypothesis was also rejected within this group.
