@@ -111,7 +111,7 @@ chisqtestGC(table2)
 fisher.test(table2)
 ```
 
-The chi-squared test shows a p-value of 0.00000001914, smaller than 0.05, meaning we reject the null hypothesis that the Covid921 Vaccine is not effective in females.  
+The chi-squared test shows a p-value of 0.00000001914, smaller than 0.05, meaning we reject the null hypothesis that the Covid921 Vaccine is not effective in females. 
 
 The Fisher's Exact Test has a p-value of 0.00000001246, confirming the null hypothesis is rejected.
 
@@ -155,7 +155,7 @@ chisqtestGC(table3)
 fisher.test(table3)
 ```
 
-The Inferential results give us the chi-squared test that shows a p-value of 2.266e-06 (0.000002266), this is less than 0.05 so the null hypothesis that "The Covid921 vaccine is effective on the LGBTQ community" is rejected.   
+The Inferential results give us the chi-squared test that shows a p-value of 2.266e-06 (0.000002266), this is less than 0.05 so the null hypothesis that "The Covid921 Vaccine is not effective on the LGBTQ community" is rejected.   
 
 Fisher's Exact Tests p-value is 7.269e-07(0.0000007269), confirming the null hypothesis is rejected and proving the alternative hypothesis.
 
@@ -203,6 +203,11 @@ chisqtestGC(table4)
 fisher.test(table4)
 ```
 
+The inferential results Chi-squared test shows a p-value of 1.414e-10 (0.0000000001414), this is smaller than 0.05 so the null hypothesis is rejected. (The Covid921 Vaccine is not effective on drug users.)
+
+The Fisher's Exact Test p-value is 3.261e-12(0.000000000003261), which suggests 
+
+The Odds Ratio is 4.27359, this is bigger than 1 so the alternative hypothesis (The Covid921 Vaccine is not effective on the LGBTQ community) is true.   
 
 #### Conclusion
 
