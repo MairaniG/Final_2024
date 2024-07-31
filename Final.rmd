@@ -221,10 +221,10 @@ For the males, the graphical results showed the placebo group got covid at a hig
 For the females, the overall result was that the vaccine was effective. The graphical and numerical results displayed a higher rate of covid among those who go the placebo over the vaccine. Around 65% of the women that received the vaccine became infected. The inferential results showed a small p-value less than 0.05 and the null hypothesis was rejected. The odds ratio was also bigger than 1 so this all pointed towards an effective vaccine result in women. 
 
 ### 3. LGBTQ
-The tests ran showed a positive relationship between those in the LGBTQ community and the Covid19 vaccine. The graphical results were that those who got the placebo were significantly more likely to get covid. The vaccine was effective and the numerical graph represented those stats as well. The inferential results gave us a p-value that was smaller than 0.05 and rejected the null hypothesis that the vaccine wasnt effective in this group.
+The tests ran showed a positive relationship between those in the LGBTQ community and the Covid19 vaccine. The graphical results were that those who got the placebo were significantly more likely to get covid. The vaccine was effective and the numerical graph represented those stats as well. The inferential results gave us a p-value that was smaller than 0.05 and rejected the null hypothesis that the vaccine wasn't effective in this group. 
 
 ### 4. Drug Users
-For Drug Users, the  hypothesis was 
+For Drug Users, the results of some test were unexpected and could be the result of an anomaly within the information taken in. This is because the graphical and numerical results showed that people who got the vaccine ended up having higher rates of covid19,it showed that 91.67% of drug users with the vaccine became infected but only 8.33% of drug users that had the placebo got infected. The inferential results however, demonstrated that the p-value was 0.0000000001414, way smaller than 0.05 and that the null hypothesis was rejected. The null hypothesis was that the Covid921 vaccine is effective on drug users. The fisher test and odds ratio also acted in favor of rejecting the null hypothesis. This means that the graphical and numerical results differed from the inferential results, possibly because of outliners, errors, or sample sizes. 
 
 
 # Overall Results and Conclusions
