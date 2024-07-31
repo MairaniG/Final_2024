@@ -210,7 +210,22 @@ The Fisher's Exact Test p-value is 3.261e-12(0.000000000003261), which also reje
 The Odds Ratio is 0.08740846 
 , this is less than 1 so it suggests that drug users who received the covid vaccine have lower odds of getting infected compared to those who did not get the vaccine.  ( also rejects the null hypothesis)
 
-#### Conclusion
+##  Conclusions
+
+### 1. Males 
+For the males, the graphical results showed the placebo group got covid at a higher rate (around 80%).The numerical results supported this by showing how there was a higher percentage of people that became infected through the placebo (73.8%). The inferential results corroborate these findings because the p-value for the fisher and chi test was smaller than 0.05,rejecting the p-value. The odds ratio also showed a positive relationship between males and the vaccines effectiveness, so this group should recieve the vaccine.
+
+### 2. Females
+For the females, the overall result was that the vaccine was effective. The graphical and numerical results displayed a higher rate of covid among those who go the placebo over the vaccine. Around 65% of the women that received the vaccine became infected. The inferential results showed a small p-value less than 0.05 and the null hypothesis was rejected. The odds ratio was also bigger than 1 so this all pointed towards an effective vaccine result in women. 
+
+### 3. LGBTQ
+The tests ran showed a  relationship between those in the LGBTQ community and the Covid19 vaccine.
+
+### 4. Drug Users
+For Drug Users, the   hypothesis was 
+
 
 
 # Overall Results and Conclusions
+  
+  In males, the tests ran showed that Covid19 vaccine was effective in preventing the contraction of the virus. 
